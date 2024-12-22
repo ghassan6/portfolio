@@ -120,6 +120,7 @@ body {
 .work-pic {
     object-fit: cover;
     width: 100%;
+    border-radius: 15px;
 }
 
 .work-pic:hover {
@@ -154,6 +155,7 @@ body {
     align-items: center;
     padding-right: 1vh;
     background-color: white;
+    border: solid;
 }
 
 .contact-section {
@@ -175,13 +177,30 @@ body {
 .contact-section h4 {
     margin: 0 1.8vh;
 }
+
+.send-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.send-btn a {
+    text-decoration: none;
+    color: white;
+    margin-left: 2vh;
+    border-radius: 12px;
+    background-color: rgb(116, 116, 255);
+    padding: 0.5vh 2vh;
+
+
+
+}
+
 .contact-section button {
-    display: block;
-    margin: 0 auto;
     border-radius: 12px;
     padding: 0.5vh 2vh;
     color: white;
     background-color: rgb(116, 116, 255);
+    border: none;
 }
 
 .contact-section button i {
@@ -211,3 +230,35 @@ body {
     border-radius: 12px;
 }
 /*  end of contact */
+
+/* footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: #C0C0C0;
+    padding: 0 4vh;
+}
+.footer-links {
+    margin-left: auto;
+}
+
+.footer-links a , .quick-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-links a {
+    font-size: 6vh;
+}
+
+.quick-links a , .footer p {
+    font-size: 3vh;
+    margin: 1vh 2vh;
+}
+
+.quick-links a:hover {
+    font-weight: bolder;
+    transform: scale(1.02);
+}
+/* end of footer */

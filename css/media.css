@@ -60,6 +60,10 @@
     .issue a {
         margin-left: 2.5vh;
     }
+
+    .issue h5 {
+        margin: 1vh 3.2vh;
+    }
 }
 
 @media screen and (max-width: 900px) {
