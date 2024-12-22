@@ -6,6 +6,8 @@ body {
     box-sizing: border-box;
 
 }
+
+/* navbar */
 .navbar {
     background-color: #B1DDF1;
     padding-bottom: 0;
@@ -26,6 +28,8 @@ body {
 
 }
 
+/* end of navbar */
+/* home */
 .home {
     display: flex;
     align-items: center;
@@ -58,6 +62,11 @@ body {
     font-size: 6vh;
     margin: 0 1.2vh;
 }
+
+/* end of home */
+
+/* about */
+
 .about {
     display: flex;
     justify-content: center;
@@ -70,6 +79,9 @@ body {
     font-family: "Roboto Mono" , sans-serif;
 }
 
+/* end of about */
+
+/* work */
 .work {
     background-color: white;
     display: grid;
@@ -110,6 +122,10 @@ body {
     width: 100%;
 }
 
+.work-pic:hover {
+    transform: scale(1.03);
+}
+
 .box-group {
     display: flex;
     gap: 2vh;
@@ -126,3 +142,72 @@ body {
 .disabled {
     pointer-events: none;
 }
+
+/* end of work  */
+/* contact */
+
+.contact {
+    margin: 4vh 12vh;
+    display: flex;
+    border: solid 1px;
+    border-radius: 15px;
+    align-items: center;
+    padding-right: 1vh;
+    background-color: white;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    margin: 3vh;
+    font-family: "Roboto Mono" sans-serif;
+    flex-basis: 60%;
+}
+
+.contact-section div {
+    margin: 3vh 2vh;
+}
+
+.contact-section input , .contact-section textarea {
+    min-width: 45%;
+}
+
+.contact-section h4 {
+    margin: 0 1.8vh;
+}
+.contact-section button {
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+    padding: 0.5vh 2vh;
+    color: white;
+    background-color: rgb(116, 116, 255);
+}
+
+.contact-section button i {
+    color:  blue;
+}
+.issue {
+    display: flex;
+    flex-direction: column;
+}
+
+.issue a  {
+    text-decoration: none;
+    color: black;
+    margin: 2vh 0;
+    font-size: 2.5vh;
+    padding: 0.5vh 1vh;
+}
+
+
+.issue i {
+    font-size: 3.5vh;
+    margin-right: 1vh;
+}
+
+.issue a:hover {
+    background-color: rgb(219, 216, 216);
+    border-radius: 12px;
+}
+/*  end of contact */
