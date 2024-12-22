@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body {
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar {
+    background-color: #B1DDF1;
+    padding-bottom: 0;
+}
+.navbar-nav a {
+    color: black ;
+    padding: 0;
+    margin-left: 2rem;
+    font-size: 1.25rem;
+}
+
+.navbar a:hover {
+    transform: scale(1.1);
+}
+.navbar-nav a:hover {
+    transform: scale(1.1);
+    border-bottom: #fccb06 3px solid;
+
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    font-family: "Roboto Mono", sans-serif;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 1.8rem;
+    margin-top: 10vh;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.home-content :nth-child(2){
+    letter-spacing: 0.85rem;
+    font-weight: bold;
+}
+
+.social-links {
+    margin-top: 1.5vh;
+    align-self: center;
+}
+
+.social-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 6vh;
+    margin: 0 1.2vh;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content {
+    flex-basis: 60%;
+    margin: 4vh 0;
+    font-family: "Roboto Mono" , sans-serif;
+}
+
+.work {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 3vh 12vh;
+    gap: 5vh;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh;
+}
+
+.btn-group {
+    max-width: fit-content;
+    display: flex;
+    align-items: center;
+    border: solid 1px;
+    padding: 0.5vh 1vh;
+    gap: 1vh;
+}
+
+.btn-group a {
+    text-decoration: none;
+    color: black;
+}
+
+.work-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    height: 100%;
+}
+.work-content :nth-child(n+2) {
+    font-family: "Roboto Mono", sans-serif;
+}
+
+.work-pic {
+    object-fit: cover;
+    width: 100%;
+}
+
+.box-group {
+    display: flex;
+    gap: 2vh;
+    margin-top: auto;
+}
+
+.box {
+    background-color: #f0f0f0;
+    padding: 0.8vh 1vh;
+    border-radius: 15px; 
+    /* media */
+}
+
+.disabled {
+    pointer-events: none;
+}
