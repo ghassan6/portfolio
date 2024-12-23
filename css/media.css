@@ -1,4 +1,12 @@
 
+@media screen and (max-width:450px) {
+    .send-btn {
+        flex-wrap: wrap;
+        gap: 1vh;
+        align-items: center;
+        justify-content: center;
+    }
+}
 @media screen and (max-width: 500px) {
     .work {
         justify-items: center;
